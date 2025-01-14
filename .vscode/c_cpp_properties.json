@@ -1,19 +1,23 @@
 {
-    "configurations": [
+    "version": "2.0.0",
+    "tasks": [
         {
-            "name": "Mac",
-            "includePath": [
-                "${workspaceFolder}/**"
+            "label": "build C program",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-o",
+                "Practice",
+                "Practice.c"
             ],
-            "defines": [],
-            "macFrameworkPath": [
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
             ],
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "macos-clang-arm64"
+            "detail": "Generated task to build C program"
         }
-    ],
-    "version": 4
+    ]
 }

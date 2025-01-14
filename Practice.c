@@ -15,6 +15,7 @@ int main(int argc, char **argv)
     float weight = 165.21;
     print(firstInitial, age, weight);
     multiplyNum();
+    addNum();
 
     return EXIT_SUCCESS;
 }

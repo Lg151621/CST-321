@@ -1,5 +1,5 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     Practice
+binary-path:     '/Users/leogodinez/CST-321/C Programming Practice/Practice'
 relocations:     []
 ...

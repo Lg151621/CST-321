@@ -31,6 +31,7 @@ void multiplyNum()
 {
     int num;
     printf("Enter an integer to be multiplied by 5: ");
+    // Recieve user input
     scanf("%d", &num);
     printf("5 x %d = %d\n", num, multiply(num));
 }
